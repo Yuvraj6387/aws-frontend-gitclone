@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import "./dashboard.css";
-import Navbar from "../../Navbar.jsx";
+import Navbar from "../Navbar.jsx";
 
 const Dashboard = () => {
   const [repositories, setRepositories] = useState([]);
