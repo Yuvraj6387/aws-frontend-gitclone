@@ -26,7 +26,7 @@ const Dashboard = () => {
 
     const fetchSuggestedRepositories = async () => {
       try {
-        const response = await fetch(`http://18.117.108.0:3000/login`);
+        const response = await fetch(`https://18.117.108.0:3000/repo/all`);
         const data = await response.json();
         setSuggestedRepositories(data);
         console.log(suggestedRepositories);
